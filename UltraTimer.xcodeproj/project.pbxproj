@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899DDB7A212E72E70041EF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB79212E72E70041EF3A /* AppDelegate.swift */; };
+		899DDB7C212E72E70041EF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB7B212E72E70041EF3A /* ViewController.swift */; };
+		899DDB7F212E72E70041EF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB7D212E72E70041EF3A /* Main.storyboard */; };
+		899DDB81212E72E80041EF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB80212E72E80041EF3A /* Assets.xcassets */; };
+		899DDB84212E72E80041EF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB82212E72E80041EF3A /* LaunchScreen.storyboard */; };
+		899DDB8F212E72E90041EF3A /* UltraTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB8E212E72E90041EF3A /* UltraTimerTests.swift */; };
+		899DDB9A212E72E90041EF3A /* UltraTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899DDB8B212E72E90041EF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899DDB6E212E72E70041EF3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899DDB75212E72E70041EF3A;
+			remoteInfo = UltraTimer;
+		};
+		899DDB96212E72E90041EF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899DDB6E212E72E70041EF3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899DDB75212E72E70041EF3A;
+			remoteInfo = UltraTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		899DDB76212E72E70041EF3A /* UltraTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899DDB79212E72E70041EF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		899DDB7B212E72E70041EF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		899DDB7E212E72E70041EF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		899DDB80212E72E80041EF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		899DDB83212E72E80041EF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		899DDB85212E72E80041EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899DDB8A212E72E90041EF3A /* UltraTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899DDB8E212E72E90041EF3A /* UltraTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltraTimerTests.swift; sourceTree = "<group>"; };
+		899DDB90212E72E90041EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899DDB95212E72E90041EF3A /* UltraTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltraTimerUITests.swift; sourceTree = "<group>"; };
+		899DDB9B212E72E90041EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899DDB73212E72E70041EF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899DDB87212E72E90041EF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899DDB92212E72E90041EF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899DDB6D212E72E70041EF3A = {
+			isa = PBXGroup;
+			children = (
+				899DDB78212E72E70041EF3A /* UltraTimer */,
+				899DDB8D212E72E90041EF3A /* UltraTimerTests */,
+				899DDB98212E72E90041EF3A /* UltraTimerUITests */,
+				899DDB77212E72E70041EF3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		899DDB77212E72E70041EF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899DDB76212E72E70041EF3A /* UltraTimer.app */,
+				899DDB8A212E72E90041EF3A /* UltraTimerTests.xctest */,
+				899DDB95212E72E90041EF3A /* UltraTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899DDB78212E72E70041EF3A /* UltraTimer */ = {
+			isa = PBXGroup;
+			children = (
+				899DDB79212E72E70041EF3A /* AppDelegate.swift */,
+				899DDB7B212E72E70041EF3A /* ViewController.swift */,
+				899DDB7D212E72E70041EF3A /* Main.storyboard */,
+				899DDB80212E72E80041EF3A /* Assets.xcassets */,
+				899DDB82212E72E80041EF3A /* LaunchScreen.storyboard */,
+				899DDB85212E72E80041EF3A /* Info.plist */,
+			);
+			path = UltraTimer;
+			sourceTree = "<group>";
+		};
+		899DDB8D212E72E90041EF3A /* UltraTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				899DDB8E212E72E90041EF3A /* UltraTimerTests.swift */,
+				899DDB90212E72E90041EF3A /* Info.plist */,
+			);
+			path = UltraTimerTests;
+			sourceTree = "<group>";
+		};
+		899DDB98212E72E90041EF3A /* UltraTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */,
+				899DDB9B212E72E90041EF3A /* Info.plist */,
+			);
+			path = UltraTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899DDB75212E72E70041EF3A /* UltraTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899DDB9E212E72E90041EF3A /* Build configuration list for PBXNativeTarget "UltraTimer" */;
+			buildPhases = (
+				899DDB72212E72E70041EF3A /* Sources */,
+				899DDB73212E72E70041EF3A /* Frameworks */,
+				899DDB74212E72E70041EF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltraTimer;
+			productName = UltraTimer;
+			productReference = 899DDB76212E72E70041EF3A /* UltraTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899DDB89212E72E90041EF3A /* UltraTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899DDBA1212E72E90041EF3A /* Build configuration list for PBXNativeTarget "UltraTimerTests" */;
+			buildPhases = (
+				899DDB86212E72E90041EF3A /* Sources */,
+				899DDB87212E72E90041EF3A /* Frameworks */,
+				899DDB88212E72E90041EF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899DDB8C212E72E90041EF3A /* PBXTargetDependency */,
+			);
+			name = UltraTimerTests;
+			productName = UltraTimerTests;
+			productReference = 899DDB8A212E72E90041EF3A /* UltraTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		899DDB94212E72E90041EF3A /* UltraTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899DDBA4212E72E90041EF3A /* Build configuration list for PBXNativeTarget "UltraTimerUITests" */;
+			buildPhases = (
+				899DDB91212E72E90041EF3A /* Sources */,
+				899DDB92212E72E90041EF3A /* Frameworks */,
+				899DDB93212E72E90041EF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899DDB97212E72E90041EF3A /* PBXTargetDependency */,
+			);
+			name = UltraTimerUITests;
+			productName = UltraTimerUITests;
+			productReference = 899DDB95212E72E90041EF3A /* UltraTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899DDB6E212E72E70041EF3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lu Yunchi";
+				TargetAttributes = {
+					899DDB75212E72E70041EF3A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					899DDB89212E72E90041EF3A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 899DDB75212E72E70041EF3A;
+					};
+					899DDB94212E72E90041EF3A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 899DDB75212E72E70041EF3A;
+					};
+				};
+			};
+			buildConfigurationList = 899DDB71212E72E70041EF3A /* Build configuration list for PBXProject "UltraTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899DDB6D212E72E70041EF3A;
+			productRefGroup = 899DDB77212E72E70041EF3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899DDB75212E72E70041EF3A /* UltraTimer */,
+				899DDB89212E72E90041EF3A /* UltraTimerTests */,
+				899DDB94212E72E90041EF3A /* UltraTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899DDB74212E72E70041EF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899DDB84212E72E80041EF3A /* LaunchScreen.storyboard in Resources */,
+				899DDB81212E72E80041EF3A /* Assets.xcassets in Resources */,
+				899DDB7F212E72E70041EF3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899DDB88212E72E90041EF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899DDB93212E72E90041EF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899DDB72212E72E70041EF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899DDB7C212E72E70041EF3A /* ViewController.swift in Sources */,
+				899DDB7A212E72E70041EF3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899DDB86212E72E90041EF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899DDB8F212E72E90041EF3A /* UltraTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899DDB91212E72E90041EF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899DDB9A212E72E90041EF3A /* UltraTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899DDB8C212E72E90041EF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899DDB75212E72E70041EF3A /* UltraTimer */;
+			targetProxy = 899DDB8B212E72E90041EF3A /* PBXContainerItemProxy */;
+		};
+		899DDB97212E72E90041EF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899DDB75212E72E70041EF3A /* UltraTimer */;
+			targetProxy = 899DDB96212E72E90041EF3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		899DDB7D212E72E70041EF3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899DDB7E212E72E70041EF3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		899DDB82212E72E80041EF3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899DDB83212E72E80041EF3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		899DDB9C212E72E90041EF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		899DDB9D212E72E90041EF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899DDB9F212E72E90041EF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UltraTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899DDBA0212E72E90041EF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UltraTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		899DDBA2212E72E90041EF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UltraTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltraTimer.app/UltraTimer";
+			};
+			name = Debug;
+		};
+		899DDBA3212E72E90041EF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UltraTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltraTimer.app/UltraTimer";
+			};
+			name = Release;
+		};
+		899DDBA5212E72E90041EF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UltraTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UltraTimer;
+			};
+			name = Debug;
+		};
+		899DDBA6212E72E90041EF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UltraTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UltraTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899DDB71212E72E70041EF3A /* Build configuration list for PBXProject "UltraTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899DDB9C212E72E90041EF3A /* Debug */,
+				899DDB9D212E72E90041EF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899DDB9E212E72E90041EF3A /* Build configuration list for PBXNativeTarget "UltraTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899DDB9F212E72E90041EF3A /* Debug */,
+				899DDBA0212E72E90041EF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899DDBA1212E72E90041EF3A /* Build configuration list for PBXNativeTarget "UltraTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899DDBA2212E72E90041EF3A /* Debug */,
+				899DDBA3212E72E90041EF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899DDBA4212E72E90041EF3A /* Build configuration list for PBXNativeTarget "UltraTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899DDBA5212E72E90041EF3A /* Debug */,
+				899DDBA6212E72E90041EF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899DDB6E212E72E70041EF3A /* Project object */;
+}
