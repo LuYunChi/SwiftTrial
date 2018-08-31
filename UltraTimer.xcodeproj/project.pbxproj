@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8970301E2137DD4B007FA084 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8970301C2137DD4B007FA084 /* Images.xcassets */; };
 		899DDB7A212E72E70041EF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB79212E72E70041EF3A /* AppDelegate.swift */; };
 		899DDB7C212E72E70041EF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB7B212E72E70041EF3A /* ViewController.swift */; };
 		899DDB7F212E72E70041EF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB7D212E72E70041EF3A /* Main.storyboard */; };
-		899DDB81212E72E80041EF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB80212E72E80041EF3A /* Assets.xcassets */; };
 		899DDB84212E72E80041EF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB82212E72E80041EF3A /* LaunchScreen.storyboard */; };
 		899DDB8F212E72E90041EF3A /* UltraTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB8E212E72E90041EF3A /* UltraTimerTests.swift */; };
 		899DDB9A212E72E90041EF3A /* UltraTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */; };
+		899DDBB22136C2230041EF3A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899DDBAF2136C2030041EF3A /* SnapKit.framework */; };
+		899DDBB32136C2230041EF3A /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899DDBAF2136C2030041EF3A /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +33,49 @@
 			remoteGlobalIDString = 899DDB75212E72E70041EF3A;
 			remoteInfo = UltraTimer;
 		};
+		899DDBAE2136C2030041EF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		899DDBB02136C2030041EF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = "SnapKit Tests";
+		};
+		899DDBB42136C2230041EF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		899DDBB62136C2230041EF3A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				899DDBB32136C2230041EF3A /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8970301C2137DD4B007FA084 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		899DDB76212E72E70041EF3A /* UltraTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899DDB79212E72E70041EF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899DDB7B212E72E70041EF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		899DDB7E212E72E70041EF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		899DDB80212E72E80041EF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899DDB83212E72E80041EF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899DDB85212E72E80041EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		899DDB8A212E72E90041EF3A /* UltraTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +84,7 @@
 		899DDB95212E72E90041EF3A /* UltraTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltraTimerUITests.swift; sourceTree = "<group>"; };
 		899DDB9B212E72E90041EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899DDBB22136C2230041EF3A /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +116,7 @@
 		899DDB6D212E72E70041EF3A = {
 			isa = PBXGroup;
 			children = (
+				899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */,
 				899DDB78212E72E70041EF3A /* UltraTimer */,
 				899DDB8D212E72E90041EF3A /* UltraTimerTests */,
 				899DDB98212E72E90041EF3A /* UltraTimerUITests */,
@@ -100,9 +140,9 @@
 				899DDB79212E72E70041EF3A /* AppDelegate.swift */,
 				899DDB7B212E72E70041EF3A /* ViewController.swift */,
 				899DDB7D212E72E70041EF3A /* Main.storyboard */,
-				899DDB80212E72E80041EF3A /* Assets.xcassets */,
 				899DDB82212E72E80041EF3A /* LaunchScreen.storyboard */,
 				899DDB85212E72E80041EF3A /* Info.plist */,
+				8970301C2137DD4B007FA084 /* Images.xcassets */,
 			);
 			path = UltraTimer;
 			sourceTree = "<group>";
@@ -125,6 +165,15 @@
 			path = UltraTimerUITests;
 			sourceTree = "<group>";
 		};
+		899DDBAA2136C2030041EF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899DDBAF2136C2030041EF3A /* SnapKit.framework */,
+				899DDBB12136C2030041EF3A /* SnapKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +184,12 @@
 				899DDB72212E72E70041EF3A /* Sources */,
 				899DDB73212E72E70041EF3A /* Frameworks */,
 				899DDB74212E72E70041EF3A /* Resources */,
+				899DDBB62136C2230041EF3A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				899DDBB52136C2230041EF3A /* PBXTargetDependency */,
 			);
 			name = UltraTimer;
 			productName = UltraTimer;
@@ -215,6 +266,12 @@
 			mainGroup = 899DDB6D212E72E70041EF3A;
 			productRefGroup = 899DDB77212E72E70041EF3A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 899DDBAA2136C2030041EF3A /* Products */;
+					ProjectRef = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				899DDB75212E72E70041EF3A /* UltraTimer */,
@@ -224,13 +281,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		899DDBAF2136C2030041EF3A /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = 899DDBAE2136C2030041EF3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		899DDBB12136C2030041EF3A /* SnapKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SnapKit Tests.xctest";
+			remoteRef = 899DDBB02136C2030041EF3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		899DDB74212E72E70041EF3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8970301E2137DD4B007FA084 /* Images.xcassets in Resources */,
 				899DDB84212E72E80041EF3A /* LaunchScreen.storyboard in Resources */,
-				899DDB81212E72E80041EF3A /* Assets.xcassets in Resources */,
 				899DDB7F212E72E70041EF3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +363,11 @@
 			isa = PBXTargetDependency;
 			target = 899DDB75212E72E70041EF3A /* UltraTimer */;
 			targetProxy = 899DDB96212E72E90041EF3A /* PBXContainerItemProxy */;
+		};
+		899DDBB52136C2230041EF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			targetProxy = 899DDBB42136C2230041EF3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,8 +508,11 @@
 		899DDB9F212E72E90041EF3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B2NUM3ZS4;
 				INFOPLIST_FILE = UltraTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.4;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,8 +529,11 @@
 		899DDBA0212E72E90041EF3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B2NUM3ZS4;
 				INFOPLIST_FILE = UltraTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LU.UltraTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.4;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
