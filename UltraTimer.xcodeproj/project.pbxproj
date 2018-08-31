@@ -14,8 +14,8 @@
 		899DDB84212E72E80041EF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDB82212E72E80041EF3A /* LaunchScreen.storyboard */; };
 		899DDB8F212E72E90041EF3A /* UltraTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB8E212E72E90041EF3A /* UltraTimerTests.swift */; };
 		899DDB9A212E72E90041EF3A /* UltraTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */; };
-		899DDBB22136C2230041EF3A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899DDBAF2136C2030041EF3A /* SnapKit.framework */; };
-		899DDBB32136C2230041EF3A /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899DDBAF2136C2030041EF3A /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89F59D432138FDA000FAA4BB /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F59D402138FD9900FAA4BB /* SnapKit.framework */; };
+		89F59D442138FDA000FAA4BB /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89F59D402138FD9900FAA4BB /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,23 +33,23 @@
 			remoteGlobalIDString = 899DDB75212E72E70041EF3A;
 			remoteInfo = UltraTimer;
 		};
-		899DDBAE2136C2030041EF3A /* PBXContainerItemProxy */ = {
+		89F59D3F2138FD9900FAA4BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+			containerPortal = 89F59D3A2138FD9900FAA4BB /* SnapKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
 			remoteInfo = SnapKit;
 		};
-		899DDBB02136C2030041EF3A /* PBXContainerItemProxy */ = {
+		89F59D412138FD9900FAA4BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+			containerPortal = 89F59D3A2138FD9900FAA4BB /* SnapKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
 			remoteInfo = "SnapKit Tests";
 		};
-		899DDBB42136C2230041EF3A /* PBXContainerItemProxy */ = {
+		89F59D452138FDA000FAA4BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+			containerPortal = 89F59D3A2138FD9900FAA4BB /* SnapKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
 			remoteInfo = SnapKit;
@@ -63,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				899DDBB32136C2230041EF3A /* SnapKit.framework in Embed Frameworks */,
+				89F59D442138FDA000FAA4BB /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +84,7 @@
 		899DDB95212E72E90041EF3A /* UltraTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		899DDB99212E72E90041EF3A /* UltraTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltraTimerUITests.swift; sourceTree = "<group>"; };
 		899DDB9B212E72E90041EF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
+		89F59D3A2138FD9900FAA4BB /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899DDBB22136C2230041EF3A /* SnapKit.framework in Frameworks */,
+				89F59D432138FDA000FAA4BB /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 		899DDB6D212E72E70041EF3A = {
 			isa = PBXGroup;
 			children = (
-				899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */,
+				89F59D3A2138FD9900FAA4BB /* SnapKit.xcodeproj */,
 				899DDB78212E72E70041EF3A /* UltraTimer */,
 				899DDB8D212E72E90041EF3A /* UltraTimerTests */,
 				899DDB98212E72E90041EF3A /* UltraTimerUITests */,
@@ -165,11 +165,11 @@
 			path = UltraTimerUITests;
 			sourceTree = "<group>";
 		};
-		899DDBAA2136C2030041EF3A /* Products */ = {
+		89F59D3B2138FD9900FAA4BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				899DDBAF2136C2030041EF3A /* SnapKit.framework */,
-				899DDBB12136C2030041EF3A /* SnapKit Tests.xctest */,
+				89F59D402138FD9900FAA4BB /* SnapKit.framework */,
+				89F59D422138FD9900FAA4BB /* SnapKit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				899DDBB52136C2230041EF3A /* PBXTargetDependency */,
+				89F59D462138FDA000FAA4BB /* PBXTargetDependency */,
 			);
 			name = UltraTimer;
 			productName = UltraTimer;
@@ -268,8 +268,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 899DDBAA2136C2030041EF3A /* Products */;
-					ProjectRef = 899DDBA92136C2030041EF3A /* SnapKit.xcodeproj */;
+					ProductGroup = 89F59D3B2138FD9900FAA4BB /* Products */;
+					ProjectRef = 89F59D3A2138FD9900FAA4BB /* SnapKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -282,18 +282,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		899DDBAF2136C2030041EF3A /* SnapKit.framework */ = {
+		89F59D402138FD9900FAA4BB /* SnapKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SnapKit.framework;
-			remoteRef = 899DDBAE2136C2030041EF3A /* PBXContainerItemProxy */;
+			remoteRef = 89F59D3F2138FD9900FAA4BB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		899DDBB12136C2030041EF3A /* SnapKit Tests.xctest */ = {
+		89F59D422138FD9900FAA4BB /* SnapKit Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SnapKit Tests.xctest";
-			remoteRef = 899DDBB02136C2030041EF3A /* PBXContainerItemProxy */;
+			remoteRef = 89F59D412138FD9900FAA4BB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -364,10 +364,10 @@
 			target = 899DDB75212E72E70041EF3A /* UltraTimer */;
 			targetProxy = 899DDB96212E72E90041EF3A /* PBXContainerItemProxy */;
 		};
-		899DDBB52136C2230041EF3A /* PBXTargetDependency */ = {
+		89F59D462138FDA000FAA4BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = 899DDBB42136C2230041EF3A /* PBXContainerItemProxy */;
+			targetProxy = 89F59D452138FDA000FAA4BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
